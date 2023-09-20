@@ -1,0 +1,17 @@
+.con ul{
+    list-style: none;
+}
+.con li{
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: calc(100%/5);
+    transition: .2s;
+}
+.con li:hover{
+    background-color: rgb(19, 95, 209);
+    border-radius: 5px;
+    color: white;
+}

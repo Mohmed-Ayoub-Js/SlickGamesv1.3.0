@@ -1,0 +1,59 @@
+.button-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    border: solid 2px #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: rgba(88, 101, 242, 1);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
+  
+  .button-discord:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+  }
+  
+  .button-discord svg {
+    transition: all .5s ease;
+    z-index: 2;
+  }
+  
+  .play {
+    transition: all .5s ease;
+    transition-delay: 300ms;
+  }
+  
+  .button-discord:hover svg {
+    transform: scale(1.3) translate(-40%);
+  }
+  
+  .now {
+    position: absolute;
+    left: 0;
+    transform: translateX(350%);
+    transition: all .5s ease;
+    z-index: 2;
+  }
+  
+  .button-discord:hover .now {
+    transform: translateX(120%);
+    transition-delay: 300ms;
+  }
+  
+  .button-discord:hover .play {
+    transform: translateX(200%);
+    transition-delay: 300ms;
+  }
+  
+  
+  
